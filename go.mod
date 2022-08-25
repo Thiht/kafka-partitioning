@@ -2,8 +2,9 @@ module stash.ovh.net/domains/kafka-test
 
 go 1.17
 
+require github.com/Shopify/sarama v1.31.0
+
 require (
-	github.com/Shopify/sarama v1.31.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/eapache/go-resiliency v1.2.0 // indirect
 	github.com/eapache/go-xerial-snappy v0.0.0-20180814174437-776d5712da21 // indirect
